@@ -19,8 +19,6 @@ function fetchJSONFile(path, callback) {
 
 fetchJSONFile('/js/users.json', function(data){
 
-    var names = [];
-    //console.log(names);
     for(i= 0; i < data.users.length; i++){
         document.getElementById("participant-list").innerHTML += '<li>' + data.users[i].name.first + ' ' + data.users[i].name.last + ' - ' + '<a href="mailto:' + data.users[i].email + '">' + data.users[i].email + '</a></li>';
     }
