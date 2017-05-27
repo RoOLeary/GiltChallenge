@@ -11,9 +11,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
-  @media screen and (min-wigiverh: 767px) {
-    #content {
-      wigiverh: 600px; } }
 
 #main {
   margin: 0 auto; }
