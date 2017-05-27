@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoOLeary/SecretSanta.git"
+    "url": "git+https://github.com/RoOLeary/GiltChallenge.git"
   },
   "keywords": [
     "gulp",
@@ -18,9 +18,9 @@
   "author": "DangerRo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RoOLeary/SecretSanta/issues"
+    "url": "https://github.com/RoOLeary/GiltChallenge/issues"
   },
-  "homepage": "https://github.com/RoOLeary/secret-santa-js#readme",
+  "homepage": "https://github.com/RoOLeary/GiltChallenge#readme",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "chai": "^3.5.0",
