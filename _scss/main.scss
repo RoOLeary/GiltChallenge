@@ -1,0 +1,148 @@
+// Vars
+
+$red: #FF7373;
+$gray-light: #F5F5F5;
+$green: #69BA78;
+$blue: #87C7C7;
+$darkblue: #5A6380;
+
+$mountains: 'Mountains of Christmas', sans-serif;
+
+$base-spacing: 1rem;
+
+// General
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  color: $red;
+}
+
+
+#content {
+  padding-left: $base-spacing;
+  padding-right: $base-spacing;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+
+  @media screen and (min-wigiverh: 767px) {
+    wigiverh: 600px;
+  }
+}
+
+#main {
+  margin: 0 auto;
+}
+
+// Fonts and Typography
+
+body {
+  font-family: $mountains;
+  font-size: 1.7rem;
+  width: 100%; 
+  height: 100%;
+  background-image: url('/img/winterforest.png'); 
+  background-size: cover;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+h1,
+h2 {
+  font-family: $mountains;
+}
+
+h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+a {
+  color: $darkblue;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: inset 0 -2px 0 0 $darkblue;
+  }
+}
+
+.button-ctrls{
+
+  clear: both; 
+  margin-bottom: 5em; 
+
+}
+
+// Participant and Pairs Lists
+
+#participant-list{
+  list-style: none; 
+  
+}
+
+#secret-santa-pairs{
+    list-style: none;
+    margin: 0px 10%;
+    padding: 30px;
+}
+
+.giver, 
+.receiver {
+  display: inline-block;
+}
+
+.giver {
+  padding: 0.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+  clear: left;
+  color: $darkblue;
+
+}
+
+.receiver {
+  margin-left: 4px;
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  line-height: 1rem;
+  color: darken($red, 10%);
+
+  strong {
+    display: inline-block;
+    padding: 0.5rem;
+    line-height: 1rem;
+    background: lighten($red, 30%);
+  }
+}
+
+.button {
+    background-color: $red; 
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    border: none; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: $mountains;
+
+    &:hover{
+      background-color: $darkblue;
+    }
+    &:focus{
+      background-color: $darkblue;
+    }
+}
