@@ -1,4 +1,4 @@
-# Secret Santa JS
+# Secret Santa
 
 ## Installation
 
